@@ -91,3 +91,10 @@ body {
     height: 150px; 
     object-fit: cover; 
   }
+
+
+  .about-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
