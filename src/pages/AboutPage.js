@@ -14,7 +14,7 @@ const AboutPage = () => {
         Our mission is to make every day a little sweeter with our homemade treats.
       </p>
       <img src={bakingProcess} alt="Baking Process" style={{ width: '100%', height: 'auto' }} />
-      <img src={teamPhoto} alt="Team Photo" style={{ width: '100%', height: 'auto' }} />
+      <img src={teamPhoto} alt="Team Photo" style={{ width: '100%', height: 'auto' }}/>
     </div>
   );
 };
