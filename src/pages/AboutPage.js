@@ -1,4 +1,3 @@
-// src/pages/AboutPage.js
 import React from 'react';
 import historicBakery from '../assets/historic-bakery.jpg'; 
 import bakingProcess from '../assets/baking-process.jpg'; 
@@ -10,7 +9,7 @@ const AboutPage = () => {
       <h1>About Us</h1>
       <img 
         src={historicBakery} 
-        alt="Exterior view of our historic bakery" 
+        alt="Historic bakery exterior" 
         className="about-image" 
       />
       <p>
@@ -19,12 +18,12 @@ const AboutPage = () => {
       </p>
       <img 
         src={bakingProcess} 
-        alt="Our team engaged in the baking process" 
+        alt="Baking in progress" 
         className="about-image" 
       />
       <img 
         src={teamPhoto} 
-        alt="Photo of our friendly bakery team" 
+        alt="Our bakery team" 
         className="about-image" 
       />
     </div>
