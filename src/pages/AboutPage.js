@@ -8,13 +8,25 @@ const AboutPage = () => {
   return (
     <div className="about-page">
       <h1>About Us</h1>
-      <img src={historicBakery} alt="Historic Bakery" style={{ width: '100%', height: 'auto' }} />
+      <img 
+        src={historicBakery} 
+        alt="Exterior view of our historic bakery" 
+        className="about-image" 
+      />
       <p>
         Our bakery has been serving the community since 1990, providing the freshest and most delicious pastries.
         Our mission is to make every day a little sweeter with our homemade treats.
       </p>
-      <img src={bakingProcess} alt="Baking Process" style={{ width: '100%', height: 'auto' }} />
-      <img src={teamPhoto} alt="Team Photo" style={{ width: '100%', height: 'auto' }}/>
+      <img 
+        src={bakingProcess} 
+        alt="Our team engaged in the baking process" 
+        className="about-image" 
+      />
+      <img 
+        src={teamPhoto} 
+        alt="Photo of our friendly bakery team" 
+        className="about-image" 
+      />
     </div>
   );
 };
